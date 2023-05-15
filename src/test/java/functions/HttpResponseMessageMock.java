@@ -1,4 +1,4 @@
-package azure-functions-java-tes;
+package functions;
 
 import com.microsoft.azure.functions.*;
 
