@@ -37,6 +37,7 @@ public class Function {
         if (name == null) {
             return request.createResponseBuilder(HttpStatus.BAD_REQUEST).body("First deploy").build();
         } else {
+            context.getLogger().severe("Hello InSights It's an error");
             return request.createResponseBuilder(HttpStatus.OK).body("Hello, " + name).build();
         }
     }
